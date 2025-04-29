@@ -80,6 +80,9 @@ common common-options
     ghc-typelits-extra,
     ghc-typelits-knownnat,
 
+
+    optics-core,
+    shockwaves,
     tydi-clash
 
 
