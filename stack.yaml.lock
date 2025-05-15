@@ -39,19 +39,6 @@ packages:
       size: 300
   original:
     hackage: prettyprinter-interp-0.2.0.0@sha256:69c339a95b265dab9b3478ca19ec96952b6b472bd0ff6e2127112a9562362c1d,2086
-- completed:
-    name: shockwaves
-    pantry-tree:
-      sha256: 8d824c0dda7d1a083466c6a992285603ec300b298d82e8fafd24b65894368afe
-      size: 5948
-    sha256: 277c198fa22440cbfb2cdf1d58ff308d7cf9dabcbc9e25231ea0d5976bee8e50
-    size: 3363727
-    subdir: haskell/shockwaves
-    url: https://github.com/The-Redstar/shockwaves/archive/b0d0dc41a46790dda947881a7cedbc942678edfc.tar.gz
-    version: '0.1'
-  original:
-    subdir: haskell/shockwaves
-    url: https://github.com/The-Redstar/shockwaves/archive/b0d0dc41a46790dda947881a7cedbc942678edfc.tar.gz
 snapshots:
 - completed:
     sha256: 08bd13ce621b41a8f5e51456b38d5b46d7783ce114a50ab604d6bbab0d002146

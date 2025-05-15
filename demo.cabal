@@ -2,8 +2,8 @@ cabal-version:       2.4
 name:                demo
 version:             0.1
 license:             BSD-2-Clause
-author:              John Smith <john@example.com>
-maintainer:          John Smith <john@example.com>
+author:              Marijn Adriaanse <marijn@qbaylogic.com>
+maintainer:          Marijn Adriaanse <marijn@qbaylogic.com>
 
 common common-options
   default-extensions:
@@ -80,7 +80,7 @@ common common-options
     ghc-typelits-extra,
     ghc-typelits-knownnat,
 
-
+    text,
     optics-core,
     shockwaves,
     tydi-clash
@@ -91,6 +91,7 @@ library
   hs-source-dirs: src
   exposed-modules:
     Example.Project
+    Example.Input
   default-language: Haskell2010
 
 -- Builds the executable 'clash', with demo project in scope

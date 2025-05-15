@@ -7,7 +7,8 @@ extra-deps:
 - clash-prelude-hedgehog-1.8.2@sha256:4ffc0a4897a60cfae1bee5feaa946be652942bcdd624b3bf153b4596754ddd0b,1410
 - prettyprinter-interp-0.2.0.0@sha256:69c339a95b265dab9b3478ca19ec96952b6b472bd0ff6e2127112a9562362c1d,2086
 - "../tydi-clash"
-- github: The-Redstar/shockwaves
-  commit: 'b0d0dc41a46790dda947881a7cedbc942678edfc'
-  subdirs:
-  - haskell/shockwaves
+# - github: The-Redstar/shockwaves
+#   commit: 'b0d0dc41a46790dda947881a7cedbc942678edfc'
+#   subdirs:
+#   - haskell/shockwaves
+- "../shockwaves/haskell/shockwaves"
